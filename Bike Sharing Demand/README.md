@@ -39,7 +39,7 @@ Submissions are evaluated one the Root Mean Squared Logarithmic Error (RMSLE).
 
 * count - number of total rentals
 
-## Contents:
+## Content:
 
 [Bike Sharing Demand](https://github.com/atabti/Data-Science-Portfolio/blob/master/Bike%20Sharing%20Demand/Bike%20Sharing%20Demand.ipynb)
 
