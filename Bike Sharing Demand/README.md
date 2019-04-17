@@ -41,7 +41,7 @@ Submissions are evaluated one the Root Mean Squared Logarithmic Error (RMSLE).
 
 ## Content:
 
-[Bike Sharing Demand](https://github.com/atabti/Data-Science-Portfolio/blob/master/Bike%20Sharing%20Demand/Bike%20Sharing%20Demand.ipynb) ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1000px-Jupyter_logo.svg.png)
+[Bike Sharing Demand](https://github.com/atabti/Data-Science-Portfolio/blob/master/Bike%20Sharing%20Demand/Bike%20Sharing%20Demand.ipynb) ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/44px-Jupyter_logo.svg.png)
 
 
 If you liked what you saw, want to have a chat with me about the portfolio, work opportunities, or collaboration, shoot an email at amokrane.tabti@gmail.com.
