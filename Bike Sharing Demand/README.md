@@ -10,9 +10,9 @@ You are provided hourly rental data spanning two years. For this competition, th
 
 Submissions are evaluated one the Root Mean Squared Logarithmic Error (RMSLE).
 
-## Data Fields
+## Data Fields:
 
-datetime - hourly date + timestamp
+* datetime - hourly date + timestamp
 
 * season -  1 = spring, 2 = summer, 3 = fall, 4 = winter
 
