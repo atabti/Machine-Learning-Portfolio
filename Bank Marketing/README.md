@@ -2,7 +2,7 @@
 
 ## Source:
 
-[Bank Marketing](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing)
+[UCI Machine Learning Repository: Bank Marketing Data Set](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing)
 
 ## Evaluation:
 
