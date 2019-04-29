@@ -30,7 +30,7 @@ Note that the distribution of questions in the dataset should not be taken to be
 
 ## Content:
 
-[Credit Card Fraud Detection](https://github.com/atabti/Data_Science_Portfolio/blob/master/Credit%20Card%20Fraud%20Detection/Credit%20Card%20Fraud%20Detection.ipynb) ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/44px-Jupyter_logo.svg.png)
+[Quora Insincere Questions Classification](https://github.com/atabti/Data_Science_Portfolio/blob/master/Quora%20Insincere%20Questions%20Classification/Quora%20Insincere%20Questions%20Classification.ipynb) ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/44px-Jupyter_logo.svg.png)
 
 
 If you liked what you saw, want to have a chat with me about the portfolio, work opportunities, or collaboration, shoot an email at amokrane.tabti@gmail.com.
