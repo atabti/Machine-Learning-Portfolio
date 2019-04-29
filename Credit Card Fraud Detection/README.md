@@ -1,47 +1,31 @@
-# Kaggle Bike Sharing Demand
+# Credit Card Fraud Detection
 
-## Description:
 
-In this competition, participants are asked to combine historical usage patterns with weather data in order to forecast bike rental demand in the Capital Bikeshare program in Washington, D.C.
+## Context:
 
-You are provided hourly rental data spanning two years. For this competition, the training set is comprised of the first 19 days of each month, while the test set is the 20th to the end of the month. You must predict the total count of bikes rented during each hour covered by the test set, using only information available prior to the rental period.
-
-## Evaluation:
-
-Submissions are evaluated one the Root Mean Squared Logarithmic Error (RMSLE).
-
-## Data Fields:
-
-* datetime - hourly date + timestamp
-
-* season -  1 = spring, 2 = summer, 3 = fall, 4 = winter
-
-* holiday - whether the day is considered a holiday
-
-* workingday - whether the day is neither a weekend nor holiday
-
-* weather - 1: Clear, Few clouds, Partly cloudy, Partly cloudy 
-    2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist 
-    3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds 
-    4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog
-
-* temp - temperature in Celsius
-
-* atemp - "feels like" temperature in Celsius
-
-* humidity - relative humidity
-
-* windspeed - wind speed
-
-* casual - number of non-registered user rentals initiated
-
-* registered - number of registered user rentals initiated
-
-* count - number of total rentals
+It is important that credit card companies are able to recognize fraudulent credit card transactions so that customers are not charged for items that they did not purchase.
 
 ## Content:
 
-[Bike Sharing Demand](https://github.com/atabti/Data-Science-Portfolio/blob/master/Bike%20Sharing%20Demand/Bike%20Sharing%20Demand.ipynb) ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/44px-Jupyter_logo.svg.png)
+Our dataset contains transactions made by credit cards in September 2013 by european cardholders. This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly imbalanced, with the positive class (frauds) accounting for 0.172% of all transactions.
+
+It contains only numerical input variables which are the result of a PCA transformation. Unfortunately, due to confidentiality issues, we cannot provide the original features and more background information about the data. Features V1, V2, ... V28 are the principal components obtained with PCA, the only features which have not been transformed with PCA are 'Time' and 'Amount'. Feature 'Time' contains the seconds elapsed between each transaction and the first transaction in the dataset. The feature 'Amount' is the transaction Amount, this feature can be used for example-dependant cost-senstive learning. Feature 'Class' is the response variable and it takes value 1 in case of fraud and 0 otherwise.
+
+## Inspiration:
+
+Identify fraudulent credit card transactions.
+
+Given the class imbalance ratio, we recommend measuring the accuracy using the Area Under the Precision-Recall Curve (AUPRC). Confusion matrix accuracy is not meaningful for unbalanced classification.
+
+## Acknowledgements:
+
+The dataset has been collected and analysed during a research collaboration of Worldline and the Machine Learning Group (http://mlg.ulb.ac.be) of ULB (Université Libre de Bruxelles) on big data mining and fraud detection. More details on current and past projects on related topics are available on http://mlg.ulb.ac.be/BruFence and http://mlg.ulb.ac.be/ARTML
+
+Please cite: Andrea Dal Pozzolo, Olivier Caelen, Reid A. Johnson and Gianluca Bontempi. Calibrating Probability with Undersampling for Unbalanced Classification. In Symposium on Computational Intelligence and Data Mining (CIDM), IEEE, 2015.
+
+## Content:
+
+[Credit Card Fraud Detection](https://github.com/atabti/Data_Science_Portfolio/blob/master/Credit%20Card%20Fraud%20Detection/Credit%20Card%20Fraud%20Detection.ipynb) ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/44px-Jupyter_logo.svg.png)
 
 
 If you liked what you saw, want to have a chat with me about the portfolio, work opportunities, or collaboration, shoot an email at amokrane.tabti@gmail.com.
