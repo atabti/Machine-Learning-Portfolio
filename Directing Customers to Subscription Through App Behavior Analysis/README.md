@@ -5,8 +5,8 @@
 In today's market, many companies have a mobile presence. Often, these companies provide free products/services in their mobile apps in an attempt to transition their customers to a paid membership. Some examples of paid products, which originate from free ones, include YouTube Red, Pandora Premium, Audible Subscription and You Need a Budget. Since marketing efforts are never free, these companies need to know exactly who to target with their offers and promotions.
     
 * Market: The target audience is customers who use a company's free product. For this project, this refers to users who installed (and used) the company's free mobile app.
-    * Product: The paid memberships often provide enhanced versions of the free products already given for free, alongside new features. For example, YouTube Red allows you to leave the app while still listening to a video.
-    * Goal: The objective of this model is to predict which users will not subscribe to the paid membership, so that greater marketing efforts can go into trying to "convert" them to paid users.
+* Product: The paid memberships often provide enhanced versions of the free products already given for free, alongside new features. For example, YouTube Red allows you to leave the app while still listening to a video.
+* Goal: The objective of this model is to predict which users will not subscribe to the paid membership, so that greater marketing efforts can go into trying to "convert" them to paid users.
 
 ## Business Challenge:
 
@@ -18,17 +18,17 @@ We will identify which users will most likely NOT enroll in a paid product, so
 We have access to the each customer's app behaviour data. This data allows us to see the date and time of app installation, as well as the features the user engaged with in the app. App behaviour is characterised as the list of app screens the user looked at and whether the user played the financial mini-games available.
 The app usage data is only from the user's first day in the app. This limitation exists because users can enjoy a 24-hour free trial of the premium features and the company wants to target them with new offers shortly after the trial is over.
 The data fields we'll be working with are as follows:
-    * first_open: The datetime when the user first opened the app
-    * dayofweek: the integer day of the week when the user first opened the app. Starts at 0, which is Sunday and runs to 6 which is Saturday.
-    * hour: Hour of the day when user first opened app. in 24 hours format as 18:00:00. Correlates with dayofweek.
-    * age: Age of the user.
-    * screen_list: Comma-seperated list of screens that the users accessed in their first 24 hours.
-    * numscreens: The number of screens accessed in their first 24 hours.
-    * liked: Each screen has an feature to 'like' that particualr screen. If any screens are liked, this value will be 1, otherwise 0.
-    * minigame: 1 if the user played the mini-game, 0 otherwise.
-    * used_premium_feature: 1 if the user accessed any of the premium features in the first 24 hours, 0 otherwise.
-    * enrolled: 1 if the user enrolled, 0 otherwise. This is the field that will be predicted later.
-    * enrolled_date: If the user enrolled at any time, this value is popopulated with the date of enrollment.
+* first_open: The datetime when the user first opened the app
+* dayofweek: the integer day of the week when the user first opened the app. Starts at 0, which is Sunday and runs to 6 which is Saturday.
+* hour: Hour of the day when user first opened app. in 24 hours format as 18:00:00. Correlates with dayofweek.
+* age: Age of the user.
+* screen_list: Comma-seperated list of screens that the users accessed in their first 24 hours.
+* numscreens: The number of screens accessed in their first 24 hours.
+* liked: Each screen has an feature to 'like' that particualr screen. If any screens are liked, this value will be 1, otherwise 0.
+* minigame: 1 if the user played the mini-game, 0 otherwise.
+* used_premium_feature: 1 if the user accessed any of the premium features in the first 24 hours, 0 otherwise.
+* enrolled: 1 if the user enrolled, 0 otherwise. This is the field that will be predicted later.
+* enrolled_date: If the user enrolled at any time, this value is popopulated with the date of enrollment.
 
 ## Content:
 
