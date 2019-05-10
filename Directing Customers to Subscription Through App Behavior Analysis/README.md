@@ -3,9 +3,10 @@
 ## Project Overview:
 
 In today's market, many companies have a mobile presence. Often, these companies provide free products/services in their mobile apps in an attempt to transition their customers to a paid membership. Some examples of paid products, which originate from free ones, include YouTube Red, Pandora Premium, Audible Subscription and You Need a Budget. Since marketing efforts are never free, these companies need to know exactly who to target with their offers and promotions.
-    • Market: The target audience is customers who use a company's free product. For this project, this refers to users who installed (and used) the company's free mobile app.
-    • Product: The paid memberships often provide enhanced versions of the free products already given for free, alongside new features. For example, YouTube Red allows you to leave the app while still listening to a video.
-    • Goal: The objective of this model is to predict which users will not subscribe to the paid membership, so that greater marketing efforts can go into trying to "convert" them to paid users.
+    
+    * Market: The target audience is customers who use a company's free product. For this project, this refers to users who installed (and used) the company's free mobile app.
+    * Product: The paid memberships often provide enhanced versions of the free products already given for free, alongside new features. For example, YouTube Red allows you to leave the app while still listening to a video.
+    * Goal: The objective of this model is to predict which users will not subscribe to the paid membership, so that greater marketing efforts can go into trying to "convert" them to paid users.
 
 ## Business Challenge:
 
