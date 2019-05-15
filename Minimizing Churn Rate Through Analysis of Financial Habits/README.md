@@ -1,12 +1,14 @@
-# Directing customers to subscription through app behavior analysis
+# Minimizing Churn Rate Through Analysis of Financial Habits
 
-## Project Overview:
+## Introduction:
 
-In today's market, many companies have a mobile presence. Often, these companies provide free products/services in their mobile apps in an attempt to transition their customers to a paid membership. Some examples of paid products, which originate from free ones, include YouTube Red, Pandora Premium, Audible Subscription and You Need a Budget. Since marketing efforts are never free, these companies need to know exactly who to target with their offers and promotions.
-    
-* Market: The target audience is customers who use a company's free product. For this project, this refers to users who installed (and used) the company's free mobile app.
-* Product: The paid memberships often provide enhanced versions of the free products already given for free, alongside new features. For example, YouTube Red allows you to leave the app while still listening to a video.
-* Goal: The objective of this model is to predict which users will not subscribe to the paid membership, so that greater marketing efforts can go into trying to "convert" them to paid users.
+Subscription Products often are the main source of revenue for companies across all industries. These products can come in the form of a ‘one size fits all' overcompassing subscription, or in multi-level memberships. Regardless of how they structure their memberships, or what industry they are in, companies almost always try to minimize customer churn (a.k.a. subscription cancellations). To retain their customers, these companies first need to identify behavioral patterns that act as catalyst in disengagement with the product.
+
+* Market: The target audience is the entirety of a company's subscription base. They are the ones companies want to keep.
+
+* Product: The subscription products that customers are already enrolled in can provide value that users may not have imagined, or that they may have forgotten.
+
+* Goal: The objective of this model is to predict which users are likely to churn, so that the company can focus on re engaging these users with the product. These efforts can be email reminders about the benefits of the product. especially focusing on features that are new or that the user has shown to value.
 
 ## Business Challenge:
 
