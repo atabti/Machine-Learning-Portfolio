@@ -4,7 +4,7 @@
 Portfolio including my data science projects for academic, self-learning, and hobby.
 
 ## Projects :fire: 
-* [Amazon Alexa Reviews](https://github.com/atabti/Data-Science-Portfolio/blob/master/Amazon%20Alexa%20Reviews/Amazon%20Alexa%20Reviews.ipynb)
+* [Amazon Alexa Reviews](https://github.com/atabti/Machine-Learning-Portfolio/tree/master/Amazon%20Alexa%20Reviews)
 
 
 
