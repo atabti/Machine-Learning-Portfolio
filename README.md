@@ -4,7 +4,7 @@
 Portfolio including my data science projects for academic, self-learning, and hobby.
 
 ## Projects :fire: 
-* [Amazon Alexa Reviews](https://github.com/atabti/Machine-Learning-Portfolio/tree/master/Amazon%20Alexa%20Reviews)
+* [Amazon Alexa Reviews](https://github.com/atabti/Machine-Learning-Portfolio/tree/master/Amazon%20Alexa%20Reviews) :robot:
 * [Bank Marketing](https://github.com/atabti/Machine-Learning-Portfolio/tree/master/Bank%20Marketing)
 * [Bike Sharing Demand](https://github.com/atabti/Machine-Learning-Portfolio/tree/master/Bike%20Sharing%20Demand)
 * [Credit Card Fraud Detection](https://github.com/atabti/Machine-Learning-Portfolio/tree/master/Credit%20Card%20Fraud%20Detection)
