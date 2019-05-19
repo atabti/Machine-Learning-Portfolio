@@ -1,5 +1,5 @@
 # Credit Card Fraud Detection
-
+![](https://images.unsplash.com/photo-1556740720-776b84291f8e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80)
 
 ## Context:
 
