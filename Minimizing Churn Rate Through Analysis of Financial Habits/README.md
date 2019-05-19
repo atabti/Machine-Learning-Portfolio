@@ -68,4 +68,4 @@ Financial data can often be unreliable and delayed. As a result. companies can s
 [Minimizing Churn Rate Through Analysis of Financial Habits](https://github.com/atabti/Data_Science_Portfolio/blob/master/Minimizing%20Churn%20Rate%20Through%20Analysis%20of%20Financial%20Habits/Minimizing%20Churn%20Rate%20Through%20Analysis%20of%20Financial%20Habits.ipynb) ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/44px-Jupyter_logo.svg.png)
 
 
-If you liked what you saw, want to have a chat with me about the portfolio, work opportunities, or collaboration, shoot an email at amokrane.tabti@gmail.com.
+If you liked what you saw, want to have a chat with me about the portfolio, work opportunities, or collaboration, send me an email at amokrane.tabti@gmail.com.
