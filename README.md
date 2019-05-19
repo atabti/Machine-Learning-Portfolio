@@ -20,4 +20,4 @@ Portfolio including my data science projects for academic, self-learning, and ho
 
 More information about me: [LinkedIn](https://www.linkedin.com/in/amokranetabti/) :mag_right:
 
-If you liked what you saw, want to have a chat with me about the portfolio, work opportunities, or collaboration, shoot an email at amokrane.tabti@gmail.com :rocket:
+If you liked what you saw, want to have a chat with me about the portfolio, work opportunities, or collaboration, send me an email at amokrane.tabti@gmail.com :rocket:
