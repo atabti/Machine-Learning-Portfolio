@@ -33,4 +33,4 @@ In this case study. we are given the set of scores from algorithms built by the 
 [Predicting the Likelihood of E-Signing a Loan Based on Financial History](https://github.com/atabti/Data_Science_Portfolio/blob/master/Predicting%20the%20Likelihood%20of%20E-Signing%20a%20Loan%20Based%20on%20Financial%20History/Predicting%20the%20Likelihood%20of%20E-Signing%20a%20Loan%20Based%20on%20Financial%20History.ipynb) ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/44px-Jupyter_logo.svg.png)
 
 
-If you liked what you saw, want to have a chat with me about the portfolio, work opportunities, or collaboration, shoot an email at amokrane.tabti@gmail.com.
+If you liked what you saw, want to have a chat with me about the portfolio, work opportunities, or collaboration, send me an email at amokrane.tabti@gmail.com.
