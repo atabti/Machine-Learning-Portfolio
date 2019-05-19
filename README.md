@@ -12,9 +12,9 @@ Portfolio including my data science projects for academic, self-learning, and ho
 ](https://github.com/atabti/Machine-Learning-Portfolio/tree/master/Directing%20Customers%20to%20Subscription%20Through%20App%20Behavior%20Analysis) :iphone:
 * [Minimizing Churn Rate Through Analysis of Financial Habits
 ](https://github.com/atabti/Machine-Learning-Portfolio/tree/master/Minimizing%20Churn%20Rate%20Through%20Analysis%20of%20Financial%20Habits) :door:
-* [Predicting the Likelihood of E-Signing a Loan Based on Financial History](https://github.com/atabti/Machine-Learning-Portfolio/tree/master/Predicting%20the%20Likelihood%20of%20E-Signing%20a%20Loan%20Based%20on%20Financial%20History)
+* [Predicting the Likelihood of E-Signing a Loan Based on Financial History](https://github.com/atabti/Machine-Learning-Portfolio/tree/master/Predicting%20the%20Likelihood%20of%20E-Signing%20a%20Loan%20Based%20on%20Financial%20History) :bank:
 * [Quora Insincere Questions Classification
-](https://github.com/atabti/Machine-Learning-Portfolio/tree/master/Quora%20Insincere%20Questions%20Classification)
+](https://github.com/atabti/Machine-Learning-Portfolio/tree/master/Quora%20Insincere%20Questions%20Classification) :question:
 
 ## Contact :email: 
 
