@@ -1,4 +1,23 @@
-# Data Science Portfolio
+# Machine Learning Portfolio :boom:
+![alt text](https://images.unsplash.com/photo-1527474305487-b87b222841cc?ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80)
+
 Portfolio including my data science projects for academic, self-learning, and hobby.
 
-More information about me: [LinkedIn](https://www.linkedin.com/in/amokranetabti/)
+## Projects :fire: 
+* [Amazon Alexa Reviews](https://github.com/atabti/Machine-Learning-Portfolio/tree/master/Amazon%20Alexa%20Reviews) :robot:
+* [Bank Marketing](https://github.com/atabti/Machine-Learning-Portfolio/tree/master/Bank%20Marketing) :money_with_wings:
+* [Bike Sharing Demand](https://github.com/atabti/Machine-Learning-Portfolio/tree/master/Bike%20Sharing%20Demand) :bike:
+* [Credit Card Fraud Detection](https://github.com/atabti/Machine-Learning-Portfolio/tree/master/Credit%20Card%20Fraud%20Detection) :credit_card:
+* [Directing customers to subscription through app behavior analysis
+](https://github.com/atabti/Machine-Learning-Portfolio/tree/master/Directing%20Customers%20to%20Subscription%20Through%20App%20Behavior%20Analysis) :iphone:
+* [Minimizing Churn Rate Through Analysis of Financial Habits
+](https://github.com/atabti/Machine-Learning-Portfolio/tree/master/Minimizing%20Churn%20Rate%20Through%20Analysis%20of%20Financial%20Habits) :door:
+* [Predicting the Likelihood of E-Signing a Loan Based on Financial History](https://github.com/atabti/Machine-Learning-Portfolio/tree/master/Predicting%20the%20Likelihood%20of%20E-Signing%20a%20Loan%20Based%20on%20Financial%20History) :bank:
+* [Quora Insincere Questions Classification
+](https://github.com/atabti/Machine-Learning-Portfolio/tree/master/Quora%20Insincere%20Questions%20Classification) :question:
+
+## Contact :email: 
+
+More information about me: [LinkedIn](https://www.linkedin.com/in/amokranetabti/) :mag_right:
+
+If you liked what you saw, want to have a chat with me about the portfolio, work opportunities, or collaboration, shoot an email at amokrane.tabti@gmail.com :rocket:

@@ -1,71 +1,36 @@
-# Minimizing Churn Rate Through Analysis of Financial Habits
+# Predicting the Likelihood of E-Signing a Loan Based on Financial History
 
 ## Introduction:
 
-Subscription Products often are the main source of revenue for companies across all industries. These products can come in the form of a ‘one size fits all' overcompassing subscription, or in multi-level memberships. Regardless of how they structure their memberships, or what industry they are in, companies almost always try to minimize customer churn (a.k.a. subscription cancellations). To retain their customers, these companies first need to identify behavioral patterns that act as catalyst in disengagement with the product.
+Lending companies work by analyzing the financial history of their loan applicants, and choosing whether or not the applicant is too risky to be given a loan. If the applicant is not, the company then determines the terms of the loan. To acquire these applicants, companies can organically receive them through their websites/apps. often with the help of advertisement campaigns. Other times. lending companies partner with peer-to-peer (P2P) lending marketplaces, in order to acquire leads of possible applicants. Some example marketplaces include Upstart. Lending Tree, and Lending club. In this project, we are going to asses the quality of the leads our company receives from these marketplaces.
 
-* Market: The target audience is the entirety of a company's subscription base. They are the ones companies want to keep.
+* Market: The target audience is the set of loan applicants who reached out through an intermediary marketplace.
 
-* Product: The subscription products that customers are already enrolled in can provide value that users may not have imagined, or that they may have forgotten.
+* Product: A loan.
 
-* Goal: The objective of this model is to predict which users are likely to churn, so that the company can focus on re engaging these users with the product. These efforts can be email reminders about the benefits of the product. especially focusing on features that are new or that the user has shown to value.
+* Goal: Develop an model to predict for quality applicants. In this case study, quality applicants are those who reach a key part of the loan application process.
 
 ## Business Challenge:
 
-In this Case Study we will be working for a ﬁntech company that provides a subscription product to its users, which allows them to manage their bank accounts (saving accounts, credit cards, etc). provides them with personalized coupons, informs them of the latest low APR loans available in the market, and educates them on the best available methods to save money (like videos on saving money on taxes, free courses on financial health.
-etc).
+In this Case Study we will be working for a fintech company that specializes on loans. It offers low APR loans to applicants based on their financial habits, as almost all lending companies do. This company has partnered with a P2P lending marketplace that provides real-time leads (loan applicants). The numbers of conversions from these leads are satisfactory.
 
-We are in charge of identifying users who are likely to cancel their subscription so that we can start building new features that they may be interested in. These features can increase the engagement and interest of our users towards the products.
+The company tasks you with creating a model that predicts whether or not these leads will complete the electronic signature phase of the loan application (a.k.a. e_signed). The company seeks to leverage this model to identify less quality applicants (e.g. those who are not responding to the onboarding process). and experiment with giving them different onboarding screens.
 
+The reason for selecting the e-signing process as the response variable is due to the structure of the loan application.
+
+The official application begins with the lead arriving into our website after we opted to acquire it. Here, the applicant begins the onboarding process to apply for a loan. The user begins to provide more financial information by going over every screen of the onboarding process. This ﬁrst phase ends with the applicant providing his/her signature indicating all of the given information is correct.
+
+Any of the following screens. in which the applicant is approved/denied and given the terms of the loan. is dependent on the company. not the applicant. Therefore the effectiveness of the onboarding is measured up to the moment the applicant stops having control of the application process.
 
 ## Data Overview:
 
-By subscribing to the membership. our customers have provided us with data on their finances. as well as how they handle those finances through the product. We also have some demographic information we acquired from them during the sign—up process.
+Because the applicants arrived through a marketplace. we have access to their financial data before the onboarding process begins. This data includes personal information like age, and time employed, as well as other financial metrics. Our company utilizes these financial data points to create risk scores based on many different risk factors.
 
-Financial data can often be unreliable and delayed. As a result. companies can sometimes build their marketing models using only demographic data. and data related to ﬁnances handled through the product itself. Therefore. we will be restricting ourselves to only using that type of data. Furthermore, product-related data is more indicative of what new features we should be creating as a company.
-
-## Description of each Columns :
-
-* userid - MongoDB userid
-* churn - Active = No | Suspended < 30 = No Else Churn = Yes
-* age - age of the customer
-* city - city of the customer
-* state - state where the customer lives
-* postal_code - zip code of the customer
-* zodiac_sign - zodiac sign of the customer
-* rent_or_own - Does the customer rents or owns a house 
-* more_than_one_mobile_device - does the customer use more than one mobile device
-* payFreq - Pay Frequency of the cusomter
-* in_collections - is the customer in collections
-* loan_pending - is the loan pending
-* withdrawn_application - has the customer withdrawn the loan applicaiton 
-* paid_off_loan - has the customer paid of the loan
-* did_not_accept_funding - customer did not accept funding
-* cash_back_engagement - Sum of cash back dollars received by a customer / No of days in the app
-* cash_back_amount - Sum of cash back dollars received by a customer
-* used_ios - Has the user used an iphone
-* used_android - Has the user used a android based phone
-* has_used_mobile_and_web - Has the user used mobile and web platforms
-* has_used_web - Has the user used MoneyLion Web app
-* has_used_mobile - as the user used MoneyLion  app
-* has_reffered - Has the user referred
-* cards_clicked - How many times a user has clicked the cards
-* cards_not_helpful - How helpful was the cards
-* cards_helpful - How helpful was the cards
-* cards_viewed - How many times a user viewed the cards
-* cards_share - How many times a user shared his cards
-* trivia_view_results - How many times a user viewed trivia results
-* trivia_view_unlocked - How many times a user viewed trivia view unlocked screen
-* trivia_view_locked - How many times a user viewed trivia view locked screen
-* trivia_shared_results - How many times a user shared trivia results 
-* trivia_played - How many times a user played trivia 
-* re_linked_account - Has the user re linked account
-* un_linked_account - Has the user un linked account
-* credit_score - Customer's credit score
+In this case study. we are given the set of scores from algorithms built by the finance and engineering teams. Furthermore. the marketplace itself provides us with their own lead quality scores. We will leverage both sets of scores. as well as small list of personal/financial features to predict if the user is likely to respond to our current onboarding process.
 
 ## Content:
 
-[Minimizing Churn Rate Through Analysis of Financial Habits](https://github.com/atabti/Data_Science_Portfolio/blob/master/Minimizing%20Churn%20Rate%20Through%20Analysis%20of%20Financial%20Habits/Minimizing%20Churn%20Rate%20Through%20Analysis%20of%20Financial%20Habits.ipynb) ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/44px-Jupyter_logo.svg.png)
+[Predicting the Likelihood of E-Signing a Loan Based on Financial History](https://github.com/atabti/Data_Science_Portfolio/blob/master/Predicting%20the%20Likelihood%20of%20E-Signing%20a%20Loan%20Based%20on%20Financial%20History/Predicting%20the%20Likelihood%20of%20E-Signing%20a%20Loan%20Based%20on%20Financial%20History.ipynb) ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/44px-Jupyter_logo.svg.png)
 
 
 If you liked what you saw, want to have a chat with me about the portfolio, work opportunities, or collaboration, shoot an email at amokrane.tabti@gmail.com.
