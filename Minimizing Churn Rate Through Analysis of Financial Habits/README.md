@@ -1,4 +1,5 @@
 # Minimizing Churn Rate Through Analysis of Financial Habits
+![](https://images.unsplash.com/photo-1494247603411-25a2921e0b28?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)
 
 ## Introduction:
 
