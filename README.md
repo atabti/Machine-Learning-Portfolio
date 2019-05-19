@@ -9,6 +9,7 @@ Portfolio including my data science projects for academic, self-learning, and ho
 
 
 
+## Contact :email: 
 
 More information about me: [LinkedIn](https://www.linkedin.com/in/amokranetabti/) :mag_right:
 
