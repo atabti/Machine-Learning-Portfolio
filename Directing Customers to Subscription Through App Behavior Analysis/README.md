@@ -35,4 +35,4 @@ The data fields we'll be working with are as follows:
 [Directing customers to subscription through app behavior analysis](https://github.com/atabti/Data_Science_Portfolio/blob/master/Directing%20Customers%20to%20Subscription%20Through%20App%20Behavior%20Analysis/Directing%20Customers%20to%20Subscription%20Through%20App%20Behavior%20Analysis.ipynb) ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/44px-Jupyter_logo.svg.png)
 
 
-If you liked what you saw, want to have a chat with me about the portfolio, work opportunities, or collaboration, shoot an email at amokrane.tabti@gmail.com.
+If you liked what you saw, want to have a chat with me about the portfolio, work opportunities, or collaboration, send me an email at amokrane.tabti@gmail.com.
