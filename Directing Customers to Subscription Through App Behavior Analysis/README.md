@@ -1,4 +1,5 @@
 # Directing customers to subscription through app behavior analysis
+![](https://images.unsplash.com/photo-1554252117-53f26a5ebdbd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
 
 ## Project Overview:
 
